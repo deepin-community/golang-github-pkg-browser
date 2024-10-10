@@ -1,4 +1,8 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+override_dh_clean:
+	dh_clean
+	rm -rf examples

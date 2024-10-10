@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-pkg-browser (0.0~git20210911.681adbf-2) unstable; urgency=medium
 
-  * Initial release
+  * upload to unstable
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 02 Jul 2023 09:30:36 -0400
+
+golang-github-pkg-browser (0.0~git20210911.681adbf-1) experimental; urgency=medium
+
+  * Initial release (Closes: #867523, 1033736)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 31 Mar 2023 08:43:56 -0400
+
+golang-github-pkg-browser (0.0~git20170505.0.c90ca0c-1) UNRELEASED; urgency=medium
+
+  [ Patrick O'Doherty ]
+  * Initial release (Closes: #867523)
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+ -- Patrick O'Doherty <p@trickod.com>  Thu, 06 Jul 2017 18:36:42 -0700
